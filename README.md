@@ -85,6 +85,69 @@ The Python source code files:
 * [tf_train_mt_image.py](https://github.com/gycggd/leaf-classification/blob/master/src/tf_train_mt_image.py): this file is to run the iamge model on Meituan Deep Learning Platform
 * [tf_train_mt_numerical.py](https://github.com/gycggd/leaf-classification/blob/master/src/tf_train_mt_numerical.py): this file is to run the numerical model on Meituan Deep Learning Platform
 
+## Preprocessing
+
+### Original images
+
+Here are original images for 99 classes:
+
+![Original images](https://github.com/gycggd/leaf-classification/blob/master/web_pics/original.png?raw=true)
+
+We can see that they are different in image size, rotation degrees, scale. We are going to deal with this by resizing images and generate more train images.
+
+### Resize images
+
+Here we want to resize all images into 96x96 and make the leaf at the center of the image. Here are the steps:
+
+* Resize the image with scale 96/max(width, length) so that the longer border of the image is 96
+* Allocate a 96x96 array, then put the image at the middle of the array, fill remaining positions with 0 since the background color is black
+
+Here are resized images:
+
+![Resized images](https://github.com/gycggd/leaf-classification/blob/master/web_pics/resized.png?raw=true)
+
+Core code here:
+
+``` Python
+def resize_img(img, max_dim=96):
+    max_axis = np.argmax(img.size)
+    scale = max_dim / img.size[max_axis]
+    return img.resize((int(img.size[0] * scale), int(img.size[1] * scale)))
+
+def resize(img, max_dim=96, center=True):
+    for i, id in enumerate(ids):
+        img = resize_img(img, max_dim=max_dim)
+        img_array = img_to_array(img)
+        X = zeros((max_dim, max_dim))
+        h, w = img_array.shape[:2]
+        if center:
+            h1 = (max_dim - h) >> 1
+            h2 = h1 + h
+            w1 = (max_dim - w) >> 1
+            w2 = w1 + w
+        else:
+            h1, h2, w1, w2 = 0, h, 0, w
+        X[h1:h2, w1:w2][:] = img_array
+    return np.around(X / 255)
+```
+
+### Data augmentation
+
+We augmented the images by rotating the image a little (filling border with nearest color), scaling the images and flipping the images by x-axis or y-axis.
+
+Core code here:
+
+``` Python
+from keras.preprocessing.image import ImageDataGenerator
+img_generator = ImageDataGenerator(rotation_range=20, zoom_range=0.2, horizontal_flip=True,
+                            vertical_flip=True, fill_mode='nearest')
+imgen_train = img_generator.flow(train_images, y_train, batch_size=32)
+```
+
+Here are some of the augmented images:
+
+![Augmented images](https://github.com/gycggd/leaf-classification/blob/master/web_pics/augmented.png?raw=true)
+
 
 ## Models
 
@@ -105,6 +168,77 @@ Structure:
 * Concatenate 192 numerical features => 18624
 * Fully connected 18624x100 => 100
 * Fully conencted 100x99 => 99
+
+We implement this model in both Keras and Tensorflow:
+
+Tensorflow code here (`bias_variable`/`weight_variable`/`max_pool_2x2` are self defined functions):
+
+``` Python
+image = tf.placeholder(tf.float32, (None, 96, 96, 1))
+numerical = tf.placeholder(tf.float32, (None, 192))
+label = tf.placeholder(tf.float32, (None, 99))
+keep_prob = tf.placeholder(tf.float32)
+
+W_conv1 = weight_variable([5, 5, 1, 8], name='W_conv1')
+b_conv1 = bias_variable([8], name='b_conv1')
+h_conv1 = tf.nn.relu(conv2d(image, W_conv1) + b_conv1)
+
+h_pool1 = max_pool_2x2(h_conv1)
+
+W_conv2 = weight_variable([5, 5, 8, 32], name='W_conv2')
+b_conv2 = bias_variable([32], name='b_conv2')
+h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2)
+
+h_pool2 = max_pool_2x2(h_conv2)
+
+h_pool2_flat = tf.reshape(h_pool2, [-1, 24 * 24 * 32])
+
+concated = tf.concat([h_pool2_flat, numerical], axis=1)
+
+W_fc1 = weight_variable([24 * 24 * 32 + 192, 100], name='W_fc1')
+b_fc1 = bias_variable([100], name='b_fc1')
+
+h_fc1 = tf.nn.relu(tf.matmul(concated, W_fc1) + b_fc1)
+
+h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
+
+W_fc2 = weight_variable([100, 99], name='W_fc2')
+b_fc2 = bias_variable([99], name='b_fc2')
+
+y_conv = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
+
+cross_entropy = tf.reduce_mean(
+    tf.nn.softmax_cross_entropy_with_logits(labels=label, logits=y_conv))
+train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+correct_prediction = tf.equal(tf.argmax(y_conv, 1), tf.argmax(label, 1))
+accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+```
+
+Keras code here:
+
+``` Python
+image = Input(shape=(96, 96, 1), name='image')
+x = Convolution2D(8, (5, 5), input_shape=(96, 96, 1))(image)
+x = (Activation('relu'))(x)
+x = (MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))(x)
+
+x = Convolution2D(32, (5, 5))(x)
+x = Activation('relu')(x)
+x = (MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))(x)
+x = Flatten()(x)
+
+numerical = Input(shape=(192,), name='numerical')
+concatenated = concatenate([x, numerical])
+
+x = Dense(100, activation='relu')(concatenated)
+x = Dropout(0.5)(x)
+
+out = Dense(99, activation='softmax')(x)
+
+model = Model(inputs=[image, numerical], outputs=out)
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+```
+
 
 The result of this model as following, this model gives the best result, nearly 100% accuracy and very low validation loss:
 
