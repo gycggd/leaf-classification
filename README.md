@@ -51,6 +51,14 @@ The Jupyter notebook files are for display use:
 * [show_model.ipynb](https://github.com/gycggd/leaf-classification/blob/master/src/show_model.ipynb): this file shows the weights of the convolutional layers, I expected to find the first layer as edge detectors, but failed.
 * [combined_model](https://github.com/gycggd/leaf-classification/blob/master/src/combined_model.ipynb): this file gives the entire process that runs our combined model, you can check this file to find how it works.
 
+The Python source code files:
+
+* [generate_data.py](https://github.com/gycggd/leaf-classification/blob/master/src/generate_data.py): this file generates augmented images for the train set, and save them in a `.tfrecord` file, we generate data for 200 epochs, and then manually upload it to Meituan Deep Learning Platform (it only supports tensorflow and numpy, so we can't use keras to generate on its platform). 
+* [tf_train_mt_combined.py](https://github.com/gycggd/leaf-classification/blob/master/src/tf_train_mt_combined.py): this file is to run the combined model on Meituan Deep Learning Platform
+* [tf_train_mt_image.py](https://github.com/gycggd/leaf-classification/blob/master/src/tf_train_mt_image.py): this file is to run the iamge model on Meituan Deep Learning Platform
+* [tf_train_mt_numerical.py](https://github.com/gycggd/leaf-classification/blob/master/src/tf_train_mt_numerical.py): this file is to run the numerical model on Meituan Deep Learning Platform
+
+
 ## Models
 
 ### Combined Model
@@ -71,7 +79,7 @@ Structure:
 * Fully connected 18624x100 => 100
 * Fully conencted 100x99 => 99
 
-The result of this model as following:
+The result of this model as following, this model gives the best result, nearly 100% accuracy and very low validation loss:
 
 ![Result of combined model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_combined.png?raw=true "Stat of combined model")
 
@@ -106,7 +114,7 @@ Structure:
 * Fully connected 18432 => 100
 * Fully conencted 100x99 => 99
 
-The result of this model as following:
+The result of this model as following, the result is very pool, less than 40% accuracy and high validation loss, the training process is also not stable:
 
 ![Result of image model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_image.png?raw=true "Stat of image model")
 
@@ -114,6 +122,6 @@ The result of this model as following:
 
 The numerical model is just a neural network that have 1 hidden layer.
 
-The result of this model as following:
+The result of this model as following, works well:
 
 ![Result of numerical model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_numerical.png?raw=true "Stat of numerical model")
