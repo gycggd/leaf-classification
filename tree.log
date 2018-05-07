@@ -1,0 +1,25 @@
+.
+|-- images
+|-- logs
+|   |-- combined.log
+|   |-- image.log
+|   `-- numerical.log
+|-- models
+|   |-- combined_model
+|   |-- image_model
+|   `-- numerical_model
+|-- src
+|   |-- combined_model.ipynb
+|   |-- generate_data.py
+|   |-- log_analysis.ipynb
+|   |-- model_structure.ipynb
+|   |-- show_data.ipynb
+|   |-- show_model.ipynb
+|   |-- tf_train_mt_combined.py
+|   |-- tf_train_mt_image.py
+|   `-- tf_train_mt_numerical.py
+|-- tfrecords
+|   |-- train_data_1.tfrecords
+|   `-- val_data_1.tfrecords
+|-- test.csv
+`-- train.csv

@@ -5,7 +5,34 @@ This is our leaf-classification project page for CSIT6000G, the dataset is from 
 
 ## Project Structure
 
-There are four directories in the project: src/images/models/logs
+There are four directories and several files in the project: src/images/models/logs
+
+>
+	|-- images
+	|-- logs
+	|   |-- combined.log
+	|   |-- image.log
+	|   `-- numerical.log
+	|-- models
+	|   |-- combined_model
+	|   |-- image_model
+	|   `-- numerical_model
+	|-- src
+	|   |-- combined_model.ipynb
+	|   |-- generate_data.py
+	|   |-- log_analysis.ipynb
+	|   |-- model_structure.ipynb
+	|   |-- show_data.ipynb
+	|   |-- show_model.ipynb
+	|   |-- tf_train_mt_combined.py
+	|   |-- tf_train_mt_image.py
+	|   `-- tf_train_mt_numerical.py
+	|-- tfrecords
+	|   |-- train_data_1.tfrecords
+	|   `-- val_data_1.tfrecords
+	|-- test.csv
+	`-- train.csv
+
 
 Here we'll explain the files in the directories.
 
