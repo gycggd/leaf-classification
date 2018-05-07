@@ -1,0 +1,550 @@
+Epoch 0, training accuracy 0.03125, training loss 5.92835
+Best val loss 5.94510793686, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0, validation loss 5.94511
+Epoch 0, training accuracy 0, training loss 4.69554
+Best val loss 4.53178596497, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.030303, validation loss 4.53179
+Epoch 1, training accuracy 0.0454545, training loss 4.44214
+Best val loss 4.47240638733, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.020202, validation loss 4.47241
+Epoch 2, training accuracy 0.0625, training loss 4.35833
+Best val loss 4.415558815, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.040404, validation loss 4.41556
+Epoch 3, training accuracy 0, training loss 4.42928
+Best val loss 4.38331651688, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.050505, validation loss 4.38332
+Epoch 4, training accuracy 0, training loss 4.4306
+Best val loss 4.35132265091, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.0606061, validation loss 4.35132
+Epoch 5, training accuracy 0.09375, training loss 4.20825
+Best val loss 4.32913160324, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.0606061, validation loss 4.32913
+Epoch 6, training accuracy 0, training loss 4.27534
+Best val loss 4.25751209259, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.0707071, validation loss 4.25751
+Epoch 7, training accuracy 0.0625, training loss 4.21636
+Best val loss 4.2170958519, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.111111, validation loss 4.2171
+Epoch 7, training accuracy 0.125, training loss 4.22437
+Best val loss 4.18082523346, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.0808081, validation loss 4.18083
+Epoch 8, training accuracy 0.0625, training loss 4.10818
+Best val loss 4.10108947754, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.10101, validation loss 4.10109
+Epoch 9, training accuracy 0.03125, training loss 4.14556
+Best val loss 4.01294946671, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.121212, validation loss 4.01295
+Epoch 10, training accuracy 0.0625, training loss 4.15988
+Best val loss 3.95857524872, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.151515, validation loss 3.95858
+Epoch 11, training accuracy 0.21875, training loss 3.90734
+Best val loss 3.87515354156, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.181818, validation loss 3.87515
+Epoch 12, training accuracy 0.3125, training loss 3.68867
+Best val loss 3.82638216019, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.191919, validation loss 3.82638
+Epoch 13, training accuracy 0.125, training loss 3.80381
+Best val loss 3.68132734299, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.212121, validation loss 3.68133
+Epoch 14, training accuracy 0.21875, training loss 3.56566
+Best val loss 3.63753819466, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.222222, validation loss 3.63754
+Epoch 14, training accuracy 0.3125, training loss 3.30232
+Best val loss 3.56862998009, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.232323, validation loss 3.56863
+Epoch 15, training accuracy 0.4375, training loss 3.31701
+Best val loss 3.42947983742, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.292929, validation loss 3.42948
+Epoch 16, training accuracy 0.28125, training loss 3.23431
+Best val loss 3.38291597366, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.333333, validation loss 3.38292
+Epoch 17, training accuracy 0.25, training loss 3.3187
+Best val loss 3.30690813065, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.323232, validation loss 3.30691
+Epoch 18, training accuracy 0.3125, training loss 3.31652
+Best val loss 3.17809867859, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.343434, validation loss 3.1781
+Epoch 19, training accuracy 0.375, training loss 3.04306
+Best val loss 3.11604690552, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.454545, validation loss 3.11605
+Epoch 20, training accuracy 0.46875, training loss 2.75182
+Best val loss 2.97458767891, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.444444, validation loss 2.97459
+Epoch 21, training accuracy 0.46875, training loss 2.87301
+Best val loss 2.90932774544, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.464646, validation loss 2.90933
+Epoch 21, training accuracy 0.5, training loss 2.77599
+Best val loss 2.84633255005, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.454545, validation loss 2.84633
+Epoch 22, training accuracy 0.40625, training loss 2.90133
+Best val loss 2.69947576523, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.484848, validation loss 2.69948
+Epoch 23, training accuracy 0.65625, training loss 2.59091
+Best val loss 2.66529965401, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.545455, validation loss 2.6653
+Epoch 24, training accuracy 0.5625, training loss 2.61726
+Best val loss 2.58818006516, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.575758, validation loss 2.58818
+Epoch 25, training accuracy 0.5625, training loss 2.30244
+Best val loss 2.4995174408, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.555556, validation loss 2.49952
+Epoch 26, training accuracy 0.5, training loss 2.29762
+Best val loss 2.41246557236, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.606061, validation loss 2.41247
+Epoch 27, training accuracy 0.625, training loss 2.10292
+Best val loss 2.33825278282, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.616162, validation loss 2.33825
+Epoch 28, training accuracy 0.59375, training loss 2.48669
+Best val loss 2.25388765335, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.646465, validation loss 2.25389
+Epoch 28, training accuracy 0.71875, training loss 2.01981
+Best val loss 2.21364235878, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.646465, validation loss 2.21364
+Epoch 29, training accuracy 0.625, training loss 2.10152
+Best val loss 2.11062383652, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.646465, validation loss 2.11062
+Epoch 30, training accuracy 0.84375, training loss 1.65472
+Best val loss 2.06942033768, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.737374, validation loss 2.06942
+Epoch 31, training accuracy 0.8, training loss 1.83178
+Best val loss 1.95262622833, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.737374, validation loss 1.95263
+Epoch 32, training accuracy 0.916667, training loss 1.92553
+Best val loss 1.91780507565, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.757576, validation loss 1.91781
+Epoch 33, training accuracy 0.78125, training loss 1.87259
+Best val loss 1.88028025627, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.777778, validation loss 1.88028
+Epoch 34, training accuracy 0.6875, training loss 1.9313
+Best val loss 1.79444003105, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.79798, validation loss 1.79444
+Epoch 35, training accuracy 0.9375, training loss 1.6733
+Best val loss 1.7612913847, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.777778, validation loss 1.76129
+Epoch 35, training accuracy 0.6875, training loss 1.88048
+Best val loss 1.70541644096, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.818182, validation loss 1.70542
+Epoch 36, training accuracy 0.90625, training loss 1.35234
+Best val loss 1.66030740738, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.79798, validation loss 1.66031
+Epoch 37, training accuracy 0.90625, training loss 1.3997
+Best val loss 1.59141278267, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.838384, validation loss 1.59141
+Epoch 38, training accuracy 0.65625, training loss 1.76605
+Best val loss 1.53268921375, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.808081, validation loss 1.53269
+Epoch 39, training accuracy 0.96875, training loss 1.13081
+Best val loss 1.4749199152, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.858586, validation loss 1.47492
+Epoch 40, training accuracy 0.84375, training loss 1.62129
+Best val loss 1.41949462891, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.878788, validation loss 1.41949
+Epoch 41, training accuracy 0.875, training loss 1.32318
+Best val loss 1.40506386757, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.808081, validation loss 1.40506
+Epoch 42, training accuracy 0.84375, training loss 1.33017
+Best val loss 1.34796392918, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.858586, validation loss 1.34796
+Epoch 42, training accuracy 0.84375, training loss 1.38916
+Best val loss 1.30646550655, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.858586, validation loss 1.30647
+Epoch 43, training accuracy 0.875, training loss 1.17877
+Best val loss 1.27473676205, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.848485, validation loss 1.27474
+Epoch 44, training accuracy 0.8125, training loss 1.37971
+Best val loss 1.22987282276, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.878788, validation loss 1.22987
+Epoch 45, training accuracy 0.96875, training loss 1.10111
+Best val loss 1.17574346066, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.888889, validation loss 1.17574
+Epoch 46, training accuracy 0.84375, training loss 1.23965
+Best val loss 1.152348876, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.868687, validation loss 1.15235
+Epoch 47, training accuracy 1, training loss 0.84826
+Best val loss 1.10338032246, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 1.10338
+Epoch 48, training accuracy 0.84375, training loss 1.06265
+Best val loss 1.06555199623, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.888889, validation loss 1.06555
+Epoch 49, training accuracy 0.875, training loss 1.01288
+Best val loss 1.03367030621, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 1.03367
+Epoch 49, training accuracy 0.90625, training loss 1.04446
+Best val loss 1.01349210739, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 1.01349
+Epoch 50, training accuracy 0.875, training loss 1.13818
+Best val loss 0.980548202991, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 0.980548
+Epoch 51, training accuracy 0.9375, training loss 0.965354
+Best val loss 0.954631686211, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 0.954632
+Epoch 52, training accuracy 0.96875, training loss 0.871432
+Best val loss 0.913784921169, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 0.913785
+Epoch 53, training accuracy 0.96875, training loss 0.82882
+Best val loss 0.842907786369, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 0.842908
+Epoch 54, training accuracy 0.96875, training loss 0.858019
+Best val loss 0.8366548419, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.89899, validation loss 0.836655
+Epoch 55, training accuracy 0.96875, training loss 0.672843
+Validation accuracy 0.929293, validation loss 0.841896
+Epoch 56, training accuracy 0.90625, training loss 0.971401
+Best val loss 0.8087849617, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 0.808785
+Epoch 56, training accuracy 0.90625, training loss 0.773801
+Best val loss 0.784911394119, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.784911
+Epoch 57, training accuracy 1, training loss 0.707809
+Best val loss 0.760662198067, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.760662
+Epoch 58, training accuracy 1, training loss 0.639437
+Best val loss 0.726634562016, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 0.726635
+Epoch 59, training accuracy 0.96875, training loss 0.619518
+Best val loss 0.713737428188, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 0.713737
+Epoch 60, training accuracy 0.9375, training loss 0.694524
+Best val loss 0.680440604687, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 0.680441
+Epoch 61, training accuracy 1, training loss 0.55151
+Best val loss 0.672336399555, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 0.672336
+Epoch 62, training accuracy 0.96, training loss 0.627203
+Best val loss 0.647724092007, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.647724
+Epoch 63, training accuracy 1, training loss 0.902522
+Best val loss 0.63522541523, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.635225
+Epoch 63, training accuracy 0.965517, training loss 0.575915
+Best val loss 0.625737726688, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.909091, validation loss 0.625738
+Epoch 64, training accuracy 0.96875, training loss 0.621317
+Best val loss 0.603057920933, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.603058
+Epoch 65, training accuracy 1, training loss 0.474964
+Best val loss 0.59593641758, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.929293, validation loss 0.595936
+Epoch 66, training accuracy 0.90625, training loss 0.643474
+Best val loss 0.571239233017, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.571239
+Epoch 67, training accuracy 0.9375, training loss 0.681021
+Best val loss 0.540118455887, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.939394, validation loss 0.540118
+Epoch 68, training accuracy 1, training loss 0.471515
+Best val loss 0.53445148468, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.939394, validation loss 0.534451
+Epoch 69, training accuracy 0.9375, training loss 0.521417
+Validation accuracy 0.919192, validation loss 0.538181
+Epoch 70, training accuracy 1, training loss 0.431443
+Best val loss 0.510577321053, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.510577
+Epoch 70, training accuracy 0.96875, training loss 0.518635
+Best val loss 0.499089390039, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.939394, validation loss 0.499089
+Epoch 71, training accuracy 0.96875, training loss 0.451314
+Validation accuracy 0.919192, validation loss 0.507859
+Epoch 72, training accuracy 0.96875, training loss 0.329086
+Best val loss 0.478256851435, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.919192, validation loss 0.478257
+Epoch 73, training accuracy 0.96875, training loss 0.427382
+Best val loss 0.463176220655, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.939394, validation loss 0.463176
+Epoch 74, training accuracy 1, training loss 0.390948
+Best val loss 0.460336059332, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.949495, validation loss 0.460336
+Epoch 75, training accuracy 0.96875, training loss 0.340426
+Best val loss 0.452261537313, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.959596, validation loss 0.452262
+Epoch 76, training accuracy 0.90625, training loss 0.508909
+Best val loss 0.445812493563, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.939394, validation loss 0.445812
+Epoch 77, training accuracy 1, training loss 0.393679
+Best val loss 0.42299759388, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.949495, validation loss 0.422998
+Epoch 77, training accuracy 1, training loss 0.418184
+Best val loss 0.417178362608, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.949495, validation loss 0.417178
+Epoch 78, training accuracy 0.96875, training loss 0.301828
+Best val loss 0.400990188122, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.949495, validation loss 0.40099
+Epoch 79, training accuracy 0.96875, training loss 0.368159
+Validation accuracy 0.949495, validation loss 0.405691
+Epoch 80, training accuracy 0.96875, training loss 0.379717
+Best val loss 0.39217749238, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.939394, validation loss 0.392177
+Epoch 81, training accuracy 1, training loss 0.291571
+Best val loss 0.361477971077, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.959596, validation loss 0.361478
+Epoch 82, training accuracy 1, training loss 0.341757
+Validation accuracy 0.959596, validation loss 0.362121
+Epoch 83, training accuracy 0.96875, training loss 0.375787
+Validation accuracy 0.939394, validation loss 0.382493
+Epoch 84, training accuracy 1, training loss 0.321468
+Validation accuracy 0.959596, validation loss 0.364963
+Epoch 84, training accuracy 0.96875, training loss 0.309887
+Best val loss 0.348400592804, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.959596, validation loss 0.348401
+Epoch 85, training accuracy 1, training loss 0.21517
+Best val loss 0.341072708368, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.949495, validation loss 0.341073
+Epoch 86, training accuracy 1, training loss 0.279781
+Best val loss 0.324533611536, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.959596, validation loss 0.324534
+Epoch 87, training accuracy 1, training loss 0.208276
+Best val loss 0.312819212675, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.979798, validation loss 0.312819
+Epoch 88, training accuracy 0.96875, training loss 0.291822
+Validation accuracy 0.979798, validation loss 0.321766
+Epoch 89, training accuracy 1, training loss 0.203059
+Best val loss 0.306309014559, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.969697, validation loss 0.306309
+Epoch 90, training accuracy 0.96875, training loss 0.328946
+Validation accuracy 0.989899, validation loss 0.307242
+Epoch 91, training accuracy 1, training loss 0.243315
+Best val loss 0.29734274745, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.979798, validation loss 0.297343
+Epoch 91, training accuracy 1, training loss 0.196644
+Best val loss 0.29716745019, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.297167
+Epoch 92, training accuracy 1, training loss 0.234913
+Best val loss 0.291203230619, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.969697, validation loss 0.291203
+Epoch 93, training accuracy 1, training loss 0.295456
+Best val loss 0.27701228857, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.979798, validation loss 0.277012
+Epoch 94, training accuracy 1, training loss 0.286283
+Best val loss 0.265207022429, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.979798, validation loss 0.265207
+Epoch 95, training accuracy 0.96875, training loss 0.249617
+Validation accuracy 0.979798, validation loss 0.271444
+Epoch 96, training accuracy 0.96875, training loss 0.19131
+Validation accuracy 1, validation loss 0.265936
+Epoch 97, training accuracy 0.96875, training loss 0.202003
+Best val loss 0.256585001945, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.256585
+Epoch 98, training accuracy 1, training loss 0.191065
+Best val loss 0.23882651329, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.979798, validation loss 0.238827
+Epoch 98, training accuracy 1, training loss 0.226536
+Best val loss 0.237139299512, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.237139
+Epoch 99, training accuracy 1, training loss 0.170065
+Validation accuracy 0.989899, validation loss 0.246018
+Epoch 100, training accuracy 1, training loss 0.203561
+Best val loss 0.2352039814, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.235204
+Epoch 101, training accuracy 1, training loss 0.106925
+Best val loss 0.227862238884, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.979798, validation loss 0.227862
+Epoch 102, training accuracy 1, training loss 0.172719
+Validation accuracy 1, validation loss 0.231168
+Epoch 103, training accuracy 1, training loss 0.160977
+Best val loss 0.215112969279, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.215113
+Epoch 104, training accuracy 1, training loss 0.14684
+Validation accuracy 1, validation loss 0.220246
+Epoch 105, training accuracy 0.96875, training loss 0.190992
+Best val loss 0.213672190905, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.213672
+Epoch 105, training accuracy 0.96875, training loss 0.161152
+Best val loss 0.204093024135, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.204093
+Epoch 106, training accuracy 1, training loss 0.141556
+Best val loss 0.200333118439, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.200333
+Epoch 107, training accuracy 1, training loss 0.101115
+Validation accuracy 0.989899, validation loss 0.201291
+Epoch 108, training accuracy 0.96875, training loss 0.189567
+Validation accuracy 0.989899, validation loss 0.208998
+Epoch 109, training accuracy 0.96875, training loss 0.186773
+Best val loss 0.198460862041, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.198461
+Epoch 110, training accuracy 1, training loss 0.124227
+Validation accuracy 0.989899, validation loss 0.205647
+Epoch 111, training accuracy 1, training loss 0.161336
+Best val loss 0.194405272603, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.194405
+Epoch 112, training accuracy 1, training loss 0.0990384
+Best val loss 0.187492743134, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.187493
+Epoch 112, training accuracy 0.96875, training loss 0.129535
+Best val loss 0.182331368327, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.182331
+Epoch 113, training accuracy 1, training loss 0.114557
+Validation accuracy 1, validation loss 0.182888
+Epoch 114, training accuracy 0.96875, training loss 0.142923
+Best val loss 0.176936358213, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.176936
+Epoch 115, training accuracy 1, training loss 0.103613
+Validation accuracy 0.989899, validation loss 0.179743
+Epoch 116, training accuracy 1, training loss 0.175083
+Best val loss 0.166511282325, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.166511
+Epoch 117, training accuracy 0.9375, training loss 0.182004
+Validation accuracy 1, validation loss 0.169289
+Epoch 118, training accuracy 1, training loss 0.120741
+Best val loss 0.16180306673, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.161803
+Epoch 119, training accuracy 1, training loss 0.111029
+Validation accuracy 1, validation loss 0.163823
+Epoch 119, training accuracy 1, training loss 0.17637
+Best val loss 0.159977182746, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.159977
+Epoch 120, training accuracy 1, training loss 0.100461
+Best val loss 0.156146496534, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.156146
+Epoch 121, training accuracy 1, training loss 0.0899286
+Validation accuracy 1, validation loss 0.157235
+Epoch 122, training accuracy 1, training loss 0.10051
+Best val loss 0.154405832291, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.154406
+Epoch 123, training accuracy 0.96875, training loss 0.132592
+Best val loss 0.149672567844, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.149673
+Epoch 124, training accuracy 1, training loss 0.104075
+Best val loss 0.149222895503, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.149223
+Epoch 125, training accuracy 1, training loss 0.0665757
+Best val loss 0.143212929368, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.143213
+Epoch 126, training accuracy 1, training loss 0.0675764
+Best val loss 0.142909392715, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.142909
+Epoch 126, training accuracy 1, training loss 0.0815631
+Validation accuracy 0.989899, validation loss 0.146357
+Epoch 127, training accuracy 1, training loss 0.0892719
+Best val loss 0.136614054441, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.136614
+Epoch 128, training accuracy 0.96875, training loss 0.121722
+Best val loss 0.135088577867, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.135089
+Epoch 129, training accuracy 1, training loss 0.119844
+Validation accuracy 1, validation loss 0.138296
+Epoch 130, training accuracy 0.96875, training loss 0.105241
+Validation accuracy 1, validation loss 0.141145
+Epoch 131, training accuracy 0.96875, training loss 0.114204
+Best val loss 0.1274497509, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.12745
+Epoch 132, training accuracy 1, training loss 0.125431
+Validation accuracy 1, validation loss 0.130559
+Epoch 133, training accuracy 1, training loss 0.151133
+Validation accuracy 0.979798, validation loss 0.147009
+Epoch 133, training accuracy 1, training loss 0.0737288
+Validation accuracy 1, validation loss 0.135595
+Epoch 134, training accuracy 1, training loss 0.0695473
+Validation accuracy 1, validation loss 0.133619
+Epoch 135, training accuracy 1, training loss 0.0923178
+Best val loss 0.118451699615, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.118452
+Epoch 136, training accuracy 1, training loss 0.0669558
+Validation accuracy 1, validation loss 0.120554
+Epoch 137, training accuracy 1, training loss 0.0945069
+Best val loss 0.117556042969, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.117556
+Epoch 138, training accuracy 1, training loss 0.0699029
+Best val loss 0.115359939635, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.11536
+Epoch 139, training accuracy 0.96875, training loss 0.104812
+Validation accuracy 1, validation loss 0.118364
+Epoch 140, training accuracy 1, training loss 0.0578312
+Validation accuracy 1, validation loss 0.116132
+Epoch 140, training accuracy 1, training loss 0.104889
+Validation accuracy 1, validation loss 0.115918
+Epoch 141, training accuracy 1, training loss 0.0739877
+Best val loss 0.113856129348, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.113856
+Epoch 142, training accuracy 0.96875, training loss 0.105472
+Best val loss 0.108574956656, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.108575
+Epoch 143, training accuracy 1, training loss 0.0735947
+Validation accuracy 1, validation loss 0.110574
+Epoch 144, training accuracy 0.96875, training loss 0.0914273
+Best val loss 0.10795006901, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.10795
+Epoch 145, training accuracy 1, training loss 0.0672584
+Validation accuracy 1, validation loss 0.110333
+Epoch 146, training accuracy 1, training loss 0.0686132
+Best val loss 0.107005350292, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.107005
+Epoch 147, training accuracy 1, training loss 0.0449503
+Validation accuracy 1, validation loss 0.107477
+Epoch 147, training accuracy 1, training loss 0.0626268
+Best val loss 0.106653302908, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.106653
+Epoch 148, training accuracy 0.96875, training loss 0.0988711
+Best val loss 0.102896220982, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.102896
+Epoch 149, training accuracy 1, training loss 0.0279234
+Validation accuracy 1, validation loss 0.104874
+Epoch 150, training accuracy 1, training loss 0.0693784
+Best val loss 0.0963018462062, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0963018
+Epoch 151, training accuracy 1, training loss 0.0605936
+Validation accuracy 1, validation loss 0.096575
+Epoch 152, training accuracy 1, training loss 0.0512248
+Validation accuracy 1, validation loss 0.0978159
+Epoch 153, training accuracy 1, training loss 0.0471077
+Validation accuracy 1, validation loss 0.101097
+Epoch 154, training accuracy 1, training loss 0.0477645
+Best val loss 0.0949525237083, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0949525
+Epoch 154, training accuracy 1, training loss 0.0405984
+Best val loss 0.0949517637491, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0949518
+Epoch 155, training accuracy 1, training loss 0.0712081
+Best val loss 0.0927566066384, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0927566
+Epoch 156, training accuracy 1, training loss 0.0536749
+Validation accuracy 1, validation loss 0.095479
+Epoch 157, training accuracy 1, training loss 0.04228
+Validation accuracy 1, validation loss 0.0956196
+Epoch 158, training accuracy 1, training loss 0.0397648
+Best val loss 0.0924970954657, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0924971
+Epoch 159, training accuracy 1, training loss 0.0454612
+Validation accuracy 1, validation loss 0.0937133
+Epoch 160, training accuracy 0.96875, training loss 0.0779016
+Best val loss 0.0912816673517, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0912817
+Epoch 161, training accuracy 1, training loss 0.0740624
+Best val loss 0.0894606783986, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0894607
+Epoch 161, training accuracy 1, training loss 0.0400855
+Validation accuracy 1, validation loss 0.0901107
+Epoch 162, training accuracy 1, training loss 0.0387189
+Best val loss 0.0888528451324, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0888528
+Epoch 163, training accuracy 0.96875, training loss 0.0869183
+Best val loss 0.0858052968979, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0858053
+Epoch 164, training accuracy 1, training loss 0.0728791
+Best val loss 0.0836386457086, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0836386
+Epoch 165, training accuracy 1, training loss 0.0304277
+Validation accuracy 0.989899, validation loss 0.0848149
+Epoch 166, training accuracy 1, training loss 0.0338112
+Best val loss 0.0827423930168, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 0.989899, validation loss 0.0827424
+Epoch 167, training accuracy 1, training loss 0.0293476
+Validation accuracy 1, validation loss 0.085452
+Epoch 168, training accuracy 1, training loss 0.0653406
+Best val loss 0.0789416208863, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0789416
+Epoch 168, training accuracy 1, training loss 0.0347257
+Validation accuracy 1, validation loss 0.083698
+Epoch 169, training accuracy 1, training loss 0.0459815
+Validation accuracy 1, validation loss 0.0799563
+Epoch 170, training accuracy 1, training loss 0.0421936
+Validation accuracy 1, validation loss 0.0802668
+Epoch 171, training accuracy 1, training loss 0.0679905
+Validation accuracy 1, validation loss 0.0802671
+Epoch 172, training accuracy 1, training loss 0.0265057
+Best val loss 0.0771782770753, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0771783
+Epoch 173, training accuracy 0.96875, training loss 0.0778433
+Best val loss 0.0765339210629, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0765339
+Epoch 174, training accuracy 1, training loss 0.0339188
+Best val loss 0.076045691967, save model to hdfs://default/user/mt_tenant_48517799/leaf/combined_model/best_combined_model.ckpt
+Validation accuracy 1, validation loss 0.0760457
