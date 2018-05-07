@@ -51,5 +51,69 @@ The Jupyter notebook files are for display use:
 * [show_model.ipynb](https://github.com/gycggd/leaf-classification/blob/master/src/show_model.ipynb): this file shows the weights of the convolutional layers, I expected to find the first layer as edge detectors, but failed.
 * [combined_model](https://github.com/gycggd/leaf-classification/blob/master/src/combined_model.ipynb): this file gives the entire process that runs our combined model, you can check this file to find how it works.
 
-<!-- ![Combined model structure](https://github.com/gycggd/leaf-classification/blob/master/web_pics/combined_model.png?raw=true "Combined model structure")
-![Image model structure](https://github.com/gycggd/leaf-classification/blob/master/web_pics/image_model.png?raw=true "Image model structure") -->
+## Models
+
+### Combined Model
+
+![Combined model structure](https://github.com/gycggd/leaf-classification/blob/master/web_pics/combined_model.png?raw=true "Combined model structure")
+
+We use two conv layers followed by max pooling layer, then concatenate the output with the numerical features, feed the concatenated array into the following two fully connected layers. In hidden layers we use ReLU as activation function and in output layer we use softmax function and use cross entropy loss function.
+
+Structure:
+
+* Input 96\*96 tensor
+* 8@5x5 conv layer => 96x96x5
+* 2x2 max pooling => 48x48x5
+* 32@5x5 conv layer => 48x48x32
+* 2x2 max pooling => 24x24x32
+* Flatten => 18432
+* Concatenate 192 numerical features => 18624
+* Fully connected 18624x100 => 100
+* Fully conencted 100x99 => 99
+
+The result of this model as following:
+
+![Result of combined model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_combined.png?raw=true "Stat of combined model")
+
+Here we also show the weights of the first conv layer:
+
+![First conv weights](https://github.com/gycggd/leaf-classification/blob/master/web_pics/visual_combined_conv1.png?raw=true)
+
+First 5 of 32 weights of the second conv layer:
+
+![Second conv weights](https://github.com/gycggd/leaf-classification/blob/master/web_pics/visual_combined_conv2_1.png?raw=true)
+![Second conv weights](https://github.com/gycggd/leaf-classification/blob/master/web_pics/visual_combined_conv2_2.png?raw=true)
+![Second conv weights](https://github.com/gycggd/leaf-classification/blob/master/web_pics/visual_combined_conv2_3.png?raw=true)
+![Second conv weights](https://github.com/gycggd/leaf-classification/blob/master/web_pics/visual_combined_conv2_4.png?raw=true)
+![Second conv weights](https://github.com/gycggd/leaf-classification/blob/master/web_pics/visual_combined_conv2_5.png?raw=true)
+
+Unfortunately, we can't understand the weight images.
+
+### Image Model
+
+![Image model structure](https://github.com/gycggd/leaf-classification/blob/master/web_pics/image_model.png?raw=true "Image model structure")
+
+The image model is the same as the combined layer except the concatenate step.
+
+Structure:
+
+* Input 96\*96 tensor
+* 8@5x5 conv layer => 96x96x5
+* 2x2 max pooling => 48x48x5
+* 32@5x5 conv layer => 48x48x32
+* 2x2 max pooling => 24x24x32
+* Flatten => 18432
+* Fully connected 18432 => 100
+* Fully conencted 100x99 => 99
+
+The result of this model as following:
+
+![Result of image model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_image.png?raw=true "Stat of image model")
+
+### Numerical Model
+
+The numerical model is just a neural network that have 1 hidden layer.
+
+The result of this model as following:
+
+![Result of numerical model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_numerical.png?raw=true "Stat of numerical model")
