@@ -275,7 +275,7 @@ Structure:
 * Fully connected 18432 => 100
 * Fully conencted 100x99 => 99
 
-The result of this model as following, the result is very pool, less than 40% accuracy and high validation loss, the training process is also not stable:
+The result of this model as following, the result is not good, less than 70% accuracy and high validation loss, the training process is also not stable:
 
 ![Result of image model](https://github.com/gycggd/leaf-classification/blob/master/web_pics/stat_image.png?raw=true "Stat of image model")
 
